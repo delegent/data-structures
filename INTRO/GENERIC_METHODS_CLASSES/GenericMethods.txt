@@ -1,0 +1,24 @@
+Generic Methods
+The method that can refer to any data type are called Generic Methods.
+for example - 
+void swap(int x, int y){
+	int temp = x;
+	x = y;
+	y  temp;
+}
+problem is that it is restricted for the integer dta type only and for swapping the 
+values whose data type is Something like String, or double or etc.. then there will 
+must be a problem and that wil evacuate the DRY principle of coding.
+Hence we have to make the things generic;
+
+Syntax:
+<access specifier> <return type> MethodName(<type list>){
+	// body of method.	
+}
+
+for creating the variable length arguments or vargs
+there can be several ways
+
+using elipsis and arrays - this will enable us the property of applying for providign the predefined data type.
+and using Object and elipsis -> this will enable us to povide any kind of data we 
+want
