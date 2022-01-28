@@ -1,0 +1,30 @@
+concept:
+processing of an array of any type of numbers using 
+Java Program.
+1. initialize array
+2. print elements in array
+3. reversing the ordering of elements in array.
+
+class SepecficArrayInt{
+	/ declaring
+	// constructore to load 
+	// method to print the arrays
+	// method to reverse the array elements
+}
+class MainInt{
+	// calling SpecificArrayInt and perform the actions
+}
+
+but this will continue for all the type of the data whether it is boolean or double or floating point etc.
+
+// provcesiig arrrays with any type
+class GenericArrayClass{
+	/ declaring
+	// cunstructor to load
+	// method to print the lements of array 
+	// reverse the array elements 
+}
+class MainClass{
+	// utilize the GenericArrayClass
+}
+
