@@ -1,0 +1,23 @@
+Important Points:
+
+1. You cannot instantiate an array whose element type is a type
+parameter . That is following is invalid.
+
+T a = new T[5];
+// The reason is that you can't create an array of T
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
